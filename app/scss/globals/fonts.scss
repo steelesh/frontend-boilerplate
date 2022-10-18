@@ -11,4 +11,9 @@
   // Monospace
   --ff-system-monospace: Menlo, Consolas, Monaco, Liberation Mono,
     Lucida Console, monospace;
+
+  // Specify fonts for tags -> Enter your own fonts here
+  --ff-primary: var(--ff-system-serif);
+  --ff-secondary: var(--ff-system-sans-serif);
+  --ff-tertiary: var(--ff-system-monospace);
 }
