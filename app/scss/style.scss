@@ -1,3 +1,7 @@
-@use 'globals';
+@use 'abstracts';
+@use 'base';
 @use 'components';
-@use 'util';
+@use 'layout';
+@use 'pages';
+@use 'themes';
+@use 'vendors';

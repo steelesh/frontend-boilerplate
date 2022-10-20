@@ -1,24 +1,17 @@
-@use '../util' as *;
-
+// Typography Rules
 h1,
 h2,
-h3 {
-  font-family: var(--ff-primary);
-  color: var(--header-text-color);
-  line-height: 1.1;
-}
-
+h3,
 h4,
 h5,
 h6 {
   font-family: var(--ff-primary);
-  color: var(--header-text-color);
   line-height: 1.1;
 }
 
 p {
-  margin-top: 0;
   font-family: var(--ff-tertiary);
+  margin-top: 0;
 }
 
 ul[role='list'],

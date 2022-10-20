@@ -1,3 +1,4 @@
+// Reset / Normalize
 html {
   font-size: 100%;
   box-sizing: border-box;
@@ -21,7 +22,7 @@ html:focus-within {
 
 body {
   text-rendering: optimizeSpeed;
-  font-family: var(--ff-secondary);
+  font-family: var(--ff-system-sans-serif);
   background-color: var(--background-color);
   color: var(--body-text-color);
 }

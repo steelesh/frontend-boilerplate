@@ -1,19 +1,26 @@
+// SASS / CSS Custom Variables
+// ! SYSTEM FONTS
 :root {
-  // SYSTEM FONTS
-  // Sans-Serif
+  // * Sans-Serif
   --ff-system-sans-serif: -apple-system, BlinkMacSystemFont, avenir next, avenir,
     segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial,
     sans-serif;
-  // Serif
+  // * Serif
   --ff-system-serif: Iowan Old Style, Apple Garamond, Baskerville,
     Times New Roman, Droid Serif, Times, Source Serif Pro, serif,
     Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  // Monospace
+  // * Monospace
   --ff-system-monospace: Menlo, Consolas, Monaco, Liberation Mono,
     Lucida Console, monospace;
+}
 
-  // Specify fonts for tags -> Enter your own fonts here
-  --ff-primary: var(--ff-system-serif);
-  --ff-secondary: var(--ff-system-sans-serif);
-  --ff-tertiary: var(--ff-system-monospace);
+// ! COLORS
+:root {
+  --background-color: rgb(255, 255, 255);
+  --header-text-color: rgb(0, 0, 0);
+  --body-text-color: rgb(0, 0, 0);
+  // * COLOR PALETTE
+  --primary-color: rgb(0, 0, 0);
+  --secondary-color: rgb(0, 0, 0);
+  --tertiary-color: rgb(0, 0, 0);
 }
