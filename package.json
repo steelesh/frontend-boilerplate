@@ -1,10 +1,10 @@
 {
-  "name": "frontend-boilerplate",
+  "name": "",
   "version": "1.0.0",
-  "description": "Steele's Front End Project Boilerplate",
+  "description": "",
   "keywords": [],
-  "author": "Steele Shreve",
-  "license": "ISC",
+  "author": "",
+  "license": "",
   "dependencies": {
     "@babel/core": "^7.14.8",
     "@babel/preset-env": "^7.14.8",
