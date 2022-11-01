@@ -26,3 +26,30 @@ body {
   background-color: var(--background-color);
   color: var(--body-text-color);
 }
+
+// Typography Rules
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--ff-primary);
+  line-height: 1.1;
+}
+
+p {
+  font-family: var(--ff-tertiary);
+  margin-top: 0;
+}
+
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+}
