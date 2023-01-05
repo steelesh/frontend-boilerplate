@@ -23,5 +23,9 @@
     "last 1 version",
     "IE 11",
     "> 1%"
-  ]
+  ],
+  "devDependencies": {
+    "gulp-concat": "^2.6.1",
+    "gulp-concat-css": "^3.1.0"
+  }
 }

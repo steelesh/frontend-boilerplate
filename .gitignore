@@ -33,6 +33,7 @@ trash
 public
 
 # Editor
+gulpfile.js
 .vscode
 .vscode-test
 *.sublime-project

@@ -1,0 +1,146 @@
+/* Add Self-Hosted Fonts */
+
+/* source-serif-pro-regular - latin */
+@font-face {
+  font-family: 'Source Serif Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('assets/fonts/source-serif-pro-v15-latin-regular.woff2') format('woff2');
+}
+
+/* source-serif-pro-600 - latin */
+@font-face {
+  font-family: 'Source Serif Pro';
+  font-style: normal;
+  font-weight: 600;
+  src: local(''),
+    url('assets/fonts/source-serif-pro-v15-latin-600.woff2') format('woff2');
+}
+
+/* poppins-regular - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('assets/fonts/poppins-v20-latin-regular.woff2') format('woff2');
+}
+
+/* poppins-600 - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  src: local(''),
+    url('assets/fonts/poppins-v20-latin-600.woff2') format('woff2');
+}
+
+/* GLOBAL STYLES */
+:root {
+  /* Insert primary light color */
+  --primary-light-clr: #fff;
+  /* Insert secondary light color */
+  --secondary-light-clr: #fff;
+  /* Insert primary dark color */
+  --primary-dark-clr: #0d1117;
+  /* Insert secondary dark color */
+  --secondary-dark-clr: #0d1117;
+  /* Insert accent color */
+  --accent: #282828;
+  /* Fonts */
+  /* Insert serif font */
+  --ff-serif: 'Source Serif Pro', Georgia, Cambria, 'Times New Roman', Times,
+    serif;
+  /* Insert system font */
+  --ff-system: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  /* Insert font for body font */
+  --ff-body: var(--ff-serif);
+  /* Insert font for headings */
+  --ff-heading: 'Poppins', sans-serif;
+  /* Insert font for monospace */
+  --ff-monospace: monospace;
+}
+
+/* Set default font for HTML */
+
+html {
+  font-size: 62.5%;
+  font-family: var(--ff-serif);
+  -webkit-overflow-scrolling: touch !important;
+}
+
+/* Remove default margin & padding */
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+/* Box sizing rules */
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set height default */
+
+html,
+body {
+  height: 100%;
+  background-color: var(--primary-light-clr);
+}
+
+/* Set core body defaults */
+
+body {
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+
+img,
+picture,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
